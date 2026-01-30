@@ -17,7 +17,7 @@ export function Section({
     <section className={cn("section-padding", className)}>
       <div className="container-narrow">
         {(title || subtitle) && (
-          <header className="section-header text-left">
+          <header className="section-header text-center sm:text-left">
             {title && <h2 className="section-title">{title}</h2>}
             {subtitle && <p className="section-subtitle">{subtitle}</p>}
           </header>

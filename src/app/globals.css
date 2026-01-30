@@ -60,7 +60,7 @@ body {
   box-shadow: 0 0 0 1px rgba(161, 98, 7, 0.3);
 }
 
-/* Hizmetlerimiz kartları: sırayla hover gibi scale, sadece biri büyürken diğerleri sabit */
+/* Hizmetlerimiz: sırayla hover gibi scale, sadece biri büyürken diğerleri sabit, smooth geçiş */
 @keyframes card-services-pulse {
   0%, 100% {
     transform: scale(1);
@@ -74,9 +74,10 @@ body {
 }
 
 .card-services-hover {
-  animation: card-services-pulse 4s ease-in-out infinite;
+  animation: card-services-pulse 6s ease-in-out infinite;
   transition: transform 0.5s ease-in-out;
 }
+
 .card-services-hover:hover {
   animation: none;
   transform: scale(1.06);

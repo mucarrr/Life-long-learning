@@ -10,7 +10,7 @@ export function TestimonialsSection() {
 
   return (
     <section className="section-padding w-full overflow-hidden bg-navy/5 px-4">
-      <header className="section-header text-left">
+      <header className="section-header text-center sm:text-left">
         <div className="container-narrow">
           <h2 className="section-title">{t.testimonials.title}</h2>
         </div>

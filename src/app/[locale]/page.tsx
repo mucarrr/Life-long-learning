@@ -42,26 +42,28 @@ export default function HomePage({
           />
         </div>
         <div className="container-narrow relative z-10 py-10 sm:py-16 lg:py-20">
-          <h1 className="hero-animate hero-animate-delay-1 text-2xl font-bold sm:text-4xl md:text-5xl">
+          <h1 className="hero-animate hero-animate-delay-1 mb-5 text-center text-3xl font-bold sm:mb-6 sm:text-left sm:text-4xl md:text-5xl">
             {t.hero.title}
           </h1>
-          <p className="hero-animate hero-animate-delay-2 mt-3 max-w-2xl text-base text-white/90 sm:mt-4 sm:text-lg">
-            {t.hero.tagline}
-          </p>
-          <p className="hero-animate hero-animate-delay-3 mt-2 max-w-2xl text-sm text-white/80 sm:text-base">
-            {t.hero.subtitle}
-          </p>
-          {t.hero.enQuote && (
-            <p className="hero-animate hero-animate-delay-4 mt-3 max-w-2xl text-xs italic text-white/70 sm:mt-4 sm:text-sm">
-              {t.hero.enQuote}
+          <div className="px-6 text-center sm:px-0">
+            <p className="hero-animate hero-animate-delay-2 mt-3 max-w-2xl text-base text-white/90 sm:mt-4 sm:text-lg">
+              {t.hero.tagline}
             </p>
-          )}
-          <div className="hero-animate hero-animate-delay-5 mt-6 flex flex-col gap-3 sm:mt-8 sm:flex-row sm:flex-wrap sm:gap-4">
+            <p className="hero-animate hero-animate-delay-3 mt-2 max-w-2xl text-sm text-white/80 sm:text-base">
+              {t.hero.subtitle}
+            </p>
+            {params.locale !== "tr" && t.hero.enQuote && (
+              <p className="hero-animate hero-animate-delay-4 mt-3 max-w-2xl text-xs italic text-white/70 sm:mt-4 sm:text-sm">
+                {t.hero.enQuote}
+              </p>
+            )}
+          </div>
+          <div className="hero-animate hero-animate-delay-5 mt-8 flex flex-col items-center gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-4">
             <Button
               href={`/${params.locale}/erasmus`}
               variant="primary"
               size="lg"
-              className="btn-yellow-cta w-full bg-yellow text-navy hover:bg-yellow-light sm:w-auto"
+              className="btn-yellow-cta min-w-[220px] bg-yellow text-navy hover:bg-yellow-light"
             >
               {t.cta.erasmus}
             </Button>
@@ -69,7 +71,7 @@ export default function HomePage({
               href={`/${params.locale}/contact`}
               variant="outline"
               size="lg"
-              className="w-full border-white text-white hover:bg-white/10 sm:w-auto"
+              className="min-w-[220px] border-white text-white hover:bg-white/10"
             >
               {t.cta.contact}
             </Button>
@@ -82,7 +84,7 @@ export default function HomePage({
 
       {/* Services */}
       <Section title={t.services.title} className="bg-navy/5">
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 px-5 sm:px-0 sm:grid-cols-2 lg:grid-cols-4">
           {SERVICES.map(({ key, image }, i) => (
             <Card
               key={key}
@@ -90,7 +92,7 @@ export default function HomePage({
               href={`/${params.locale}/services`}
               image={image}
               className="card-services-hover"
-              style={{ animationDelay: `${i * 1}s` }}
+              style={{ animationDelay: `${i * 1.5}s` }}
             />
           ))}
         </div>
