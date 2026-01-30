@@ -9,6 +9,7 @@ type CardProps = {
   image?: string;
   featured?: boolean;
   className?: string;
+  style?: React.CSSProperties;
   children?: React.ReactNode;
 };
 
@@ -50,6 +51,7 @@ export function Card({
   image,
   featured,
   className,
+  style,
   children,
 }: CardProps) {
   const cls = cardClassName(featured, className);
@@ -59,7 +61,7 @@ export function Card({
     </CardContent>
   );
   if (href) {
-    return <Link href={href} className={cls}>{content}</Link>;
+    return <Link href={href} className={cls} style={style}>{content}</Link>;
   }
-  return <div className={cls}>{content}</div>;
+  return <div className={cls} style={style}>{content}</div>;
 }

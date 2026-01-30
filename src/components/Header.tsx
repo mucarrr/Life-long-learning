@@ -60,7 +60,7 @@ export function Header() {
       <div className="header-inner flex h-14 items-center justify-between gap-4 sm:h-16">
         <Link
           href={base}
-          className="relative block h-10 shrink-0 overflow-hidden rounded-sm bg-[var(--card-bg)] sm:h-12"
+          className="hero-animate hero-animate-delay-1 relative block h-10 shrink-0 overflow-hidden rounded-sm bg-[var(--card-bg)] sm:h-12"
           style={{ width: "clamp(120px, 20vw, 200px)" }}
         >
           <Image
@@ -73,11 +73,11 @@ export function Header() {
           />
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hero-animate hero-animate-delay-2 hidden items-center gap-1 lg:flex">
           <NavLinks base={base} pathname={pathname} t={t} />
         </nav>
 
-        <div className="flex shrink-0 items-center gap-2">
+        <div className="hero-animate hero-animate-delay-3 flex shrink-0 items-center gap-2">
           <LanguageSwitcher className="hidden sm:block" />
           <button
             type="button"

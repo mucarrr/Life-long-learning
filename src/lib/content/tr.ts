@@ -63,6 +63,21 @@ export const tr = {
         name: "Kurum",
         role: "İş ortağı",
       },
+      {
+        quote: "Ebeveyn eğitim programları aile içi iletişimimizi güçlendirdi.",
+        name: "Anne",
+        role: "Ebeveyn",
+      },
+      {
+        quote: "Konuşma terapisi desteği sayesinde çocuğumuz çok ilerledi.",
+        name: "Baba",
+        role: "Ebeveyn",
+      },
+      {
+        quote: "Avrupa projelerinde iş birliği yapmak deneyimimizi zenginleştirdi.",
+        name: "Okul",
+        role: "Kurum ortağı",
+      },
     ],
   },
   cta: {

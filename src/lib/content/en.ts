@@ -62,6 +62,21 @@ export const en = {
         name: "Organization",
         role: "Partner",
       },
+      {
+        quote: "Parent education programmes strengthened our family communication.",
+        name: "Mother",
+        role: "Parent",
+      },
+      {
+        quote: "Speech therapy support helped our child make great progress.",
+        name: "Father",
+        role: "Parent",
+      },
+      {
+        quote: "Collaborating on European projects enriched our experience.",
+        name: "School",
+        role: "Partner organisation",
+      },
     ],
   },
   cta: {

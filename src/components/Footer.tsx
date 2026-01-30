@@ -45,49 +45,54 @@ export function Footer() {
   return (
     <footer className="border-t border-border bg-navy text-white">
       <div className="container-narrow py-8 sm:py-10">
-        <div className="grid gap-8 sm:grid-cols-[1fr_auto] sm:items-start">
-          {/* Sol: logo + slogan (iki satır, italic) + takip + sosyal */}
-          <div className="flex flex-col gap-4">
-            <Link
-              href={base}
-              className="relative block h-9 w-[110px] shrink-0 overflow-hidden rounded-sm bg-[var(--card-bg)] sm:h-10 sm:w-[130px]"
-            >
-              <Image
-                src="/images/LLG.png"
-                alt={t.hero.title}
-                fill
-                className="object-contain object-left"
-                sizes="130px"
-              />
-            </Link>
-            <div className="italic">
-              <p className="text-base text-white/95 sm:text-lg">{t.footer.taglineLine1}</p>
-              <p className="mt-0.5 text-sm text-white/80 sm:text-base">{t.footer.taglineLine2}</p>
+        <div className="grid w-full gap-8 sm:grid-cols-[1fr_auto] sm:items-start">
+          {/* Sol: mobilde tam genişlik + ortalı; sm+ yan yana sol hizalı */}
+          <div className="flex min-h-[200px] w-full flex-col items-center justify-between text-center sm:min-h-[220px] sm:items-stretch sm:text-left">
+            <div className="flex w-full max-w-full flex-col items-center gap-4 sm:max-w-none sm:items-stretch">
+              <Link
+                href={base}
+                className="relative block h-9 w-[110px] shrink-0 overflow-hidden rounded-sm bg-[var(--card-bg)] sm:h-10 sm:w-[130px]"
+              >
+                <Image
+                  src="/images/LLG.png"
+                  alt={t.hero.title}
+                  fill
+                  className="object-contain object-left"
+                  sizes="130px"
+                />
+              </Link>
+              {/* Slogan: mobilde tam genişlik ortalı, sm+ yarım genişlik */}
+              <div className="w-full max-w-full sm:max-w-[50%]">
+                <div className="italic">
+                  <p className="text-base text-white/95 sm:text-lg">{t.hero.tagline}</p>
+                  <p className="mt-0.5 text-sm text-white/80 sm:text-base">{t.hero.subtitle}</p>
+                </div>
+              </div>
             </div>
-            <p className="text-sm text-white/70">{t.footer.follow}</p>
-            <div className="flex gap-3">
+            {/* İkon konteyneri: mobilde ortalı, sm+ sol hizalı */}
+            <div className="mt-6 flex w-full max-w-full justify-center gap-2 sm:max-w-[50%] sm:justify-start">
               {SOCIAL.map(({ href, label, icon, className }) => (
                 <a
                   key={label}
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-white transition-opacity ${className}`}
+                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-white transition-opacity ${className}`}
                   aria-label={label}
                 >
-                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
                     <path d={icon} />
                   </svg>
                 </a>
               ))}
             </div>
           </div>
-          {/* Sağ: Hızlı Linkler başlığı + nav menü alt alta */}
-          <nav className="flex flex-col gap-4">
+          {/* Sağ: mobilde tam genişlik + ortalı; sm+ sağ hizalı */}
+          <nav className="flex w-full flex-col items-center gap-4 text-center sm:items-start sm:text-left">
             <h3 className="text-base font-bold text-white sm:text-lg">
               {t.footer.quickLinks}
             </h3>
-            <div className="flex flex-col gap-2.5 text-sm font-normal text-white/80">
+            <div className="flex flex-col items-center gap-2.5 text-sm font-normal text-white/80 sm:items-start">
               {navItems.map(({ key, href }) => (
                 <Link
                   key={key}
