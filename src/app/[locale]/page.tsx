@@ -45,7 +45,7 @@ export default function HomePage({
           <h1 className="hero-animate hero-animate-delay-1 mb-5 text-center text-3xl font-bold sm:mb-6 sm:text-left sm:text-4xl md:text-5xl">
             {t.hero.title}
           </h1>
-          <div className="px-6 text-center sm:px-0">
+          <div className="px-6 text-center sm:px-0 sm:text-left">
             <p className="hero-animate hero-animate-delay-2 mt-3 max-w-2xl text-base text-white/90 sm:mt-4 sm:text-lg">
               {t.hero.tagline}
             </p>
@@ -58,7 +58,7 @@ export default function HomePage({
               </p>
             )}
           </div>
-          <div className="hero-animate hero-animate-delay-5 mt-8 flex flex-col items-center gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-4">
+          <div className="hero-animate hero-animate-delay-5 mt-8 flex flex-col items-center gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-start sm:gap-4">
             <Button
               href={`/${params.locale}/erasmus`}
               variant="primary"
