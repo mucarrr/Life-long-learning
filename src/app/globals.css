@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fafafa;
+  --foreground: #0f172a;
+  --navy: #0f172a;
+  --navy-light: #1e293b;
+  --navy-muted: #334155;
+  --yellow: #ca8a04;
+  --yellow-light: #eab308;
+  --yellow-muted: #a16207;
+  --accent: #ca8a04;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Shared utility classes – mobile-first (base = mobile, sm:/lg: = larger) */
+.container-narrow {
+  @apply mx-auto w-full max-w-5xl px-4 sm:px-6;
+}
+
+.header-inner {
+  @apply mx-auto flex w-full max-w-[1600px] items-center justify-between gap-3 px-3 sm:px-4;
+}
+
+.section-padding {
+  @apply py-10 sm:py-16 lg:py-20;
+}
+
+.section-title {
+  @apply text-xl font-semibold text-[var(--navy)] sm:text-2xl lg:text-3xl;
+}
+
+.section-header {
+  @apply mb-6 sm:mb-10;
+}
+
+.section-subtitle {
+  @apply mt-2 text-[var(--navy-muted)];
+}
+
+.btn-base {
+  @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50;
+}
+
+.card-base {
+  @apply rounded-xl border border-[var(--border)] bg-[var(--card-bg)] shadow-sm overflow-hidden transition-shadow hover:shadow-md;
+}
+
+.card-featured {
+  @apply card-base border-2 border-yellow;
+  box-shadow: 0 0 0 1px rgba(161, 98, 7, 0.3);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
