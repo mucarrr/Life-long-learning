@@ -321,8 +321,7 @@ export const en = {
     },
     seminars: {
       title: "Seminars",
-      pastEventsNote: "Past Events",
-      highlightsTitle: "Selected Seminar Highlights",
+      highlightsTitle: "Selected Seminars Highlights",
       highlights: [
         {
           title: "Family School Seminars – Online parent education series",

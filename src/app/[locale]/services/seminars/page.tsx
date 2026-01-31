@@ -9,7 +9,6 @@ export default function SeminarsServicePage({ params }: { params: { locale: Loca
   return (
     <Section className="pb-10 sm:pb-16">
       <h1 className="section-title section-header">{s.title}</h1>
-      <p className="text-foreground/90 mb-4">{s.pastEventsNote}</p>
       <h2 className="font-semibold text-navy mb-3">{s.highlightsTitle}</h2>
       <ul className="space-y-2">
         {s.highlights.map((item, i) => (

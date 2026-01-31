@@ -15,36 +15,54 @@ export default function EducationalServicePage({ params }: { params: { locale: L
 
       <div className="space-y-8">
         <article className="card-base p-5 sm:p-6">
-          <h2 className="font-semibold text-navy text-lg mb-3">{s.age4_11.title}</h2>
-          <p className="text-foreground/90 mb-3">{s.age4_11.intro}</p>
-          <ul className="list-disc pl-5 space-y-1.5 mb-3">
-            {s.age4_11.items.map((item, i) => (
-              <li key={i}>{item}</li>
-            ))}
-          </ul>
-          <p className="text-foreground/90 text-sm">{s.age4_11.focus}</p>
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_auto] lg:gap-8">
+            <section className="min-w-0">
+              <h2 className="font-semibold text-navy text-lg mb-3">{s.age4_11.title}</h2>
+              <p className="text-foreground/90 mb-3">{s.age4_11.intro}</p>
+              <ul className="list-disc pl-5 space-y-1.5">
+                {s.age4_11.items.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </section>
+            <section className="pinned-note max-w-[320px] lg:self-end" role="note">
+              <p className="text-foreground/90 text-sm leading-relaxed">{s.age4_11.focus}</p>
+            </section>
+          </div>
         </article>
 
         <article className="card-base p-5 sm:p-6">
-          <h2 className="font-semibold text-navy text-lg mb-3">{s.age11_18.title}</h2>
-          <p className="text-foreground/90 mb-3">{s.age11_18.intro}</p>
-          <ul className="list-disc pl-5 space-y-1.5 mb-3">
-            {s.age11_18.items.map((item, i) => (
-              <li key={i}>{item}</li>
-            ))}
-          </ul>
-          <p className="text-foreground/90 text-sm">{s.age11_18.focus}</p>
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_auto] lg:gap-8">
+            <section className="min-w-0">
+              <h2 className="font-semibold text-navy text-lg mb-3">{s.age11_18.title}</h2>
+              <p className="text-foreground/90 mb-3">{s.age11_18.intro}</p>
+              <ul className="list-disc pl-5 space-y-1.5">
+                {s.age11_18.items.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </section>
+            <section className="pinned-note max-w-[320px] lg:self-end" role="note">
+              <p className="text-foreground/90 text-sm leading-relaxed">{s.age11_18.focus}</p>
+            </section>
+          </div>
         </article>
 
         <article className="card-base p-5 sm:p-6">
-          <h2 className="font-semibold text-navy text-lg mb-3">{s.age18_25.title}</h2>
-          <p className="text-foreground/90 mb-3">{s.age18_25.intro}</p>
-          <ul className="list-disc pl-5 space-y-1.5 mb-3">
-            {s.age18_25.items.map((item, i) => (
-              <li key={i}>{item}</li>
-            ))}
-          </ul>
-          <p className="text-foreground/90 text-sm">{s.age18_25.focus}</p>
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_auto] lg:gap-8">
+            <section className="min-w-0">
+              <h2 className="font-semibold text-navy text-lg mb-3">{s.age18_25.title}</h2>
+              <p className="text-foreground/90 mb-3">{s.age18_25.intro}</p>
+              <ul className="list-disc pl-5 space-y-1.5">
+                {s.age18_25.items.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </section>
+            <section className="pinned-note max-w-[320px] lg:self-end" role="note">
+              <p className="text-foreground/90 text-sm leading-relaxed">{s.age18_25.focus}</p>
+            </section>
+          </div>
         </article>
       </div>
 

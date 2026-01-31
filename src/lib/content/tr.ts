@@ -322,7 +322,6 @@ export const tr = {
     },
     seminars: {
       title: "Seminerler",
-      pastEventsNote: "Geçmiş Etkinlikler",
       highlightsTitle: "Seçilmiş Seminer Öne Çıkanları",
       highlights: [
         { title: "Aile Okulu Seminerleri – Online ebeveyn eğitim serisi" },
