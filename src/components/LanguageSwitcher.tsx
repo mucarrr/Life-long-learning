@@ -27,8 +27,8 @@ export function LanguageSwitcher({ className }: { className?: string }) {
         className={cn(
           "rounded-md px-2 py-1 text-sm font-medium transition-colors",
           locale === "tr"
-            ? "bg-yellow text-navy"
-            : "text-navy-muted hover:bg-navy/5"
+            ? "bg-yellow text-foreground"
+            : "text-foreground/70 hover:bg-navy/5"
         )}
       >
         TR
@@ -39,8 +39,8 @@ export function LanguageSwitcher({ className }: { className?: string }) {
         className={cn(
           "rounded-md px-2 py-1 text-sm font-medium transition-colors",
           locale === "en"
-            ? "bg-yellow text-navy"
-            : "text-navy-muted hover:bg-navy/5"
+            ? "bg-yellow text-foreground"
+            : "text-foreground/70 hover:bg-navy/5"
         )}
       >
         EN

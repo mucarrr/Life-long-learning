@@ -36,8 +36,8 @@ function NavLinks({
               featured && "border border-yellow bg-yellow/10 text-navy",
               !featured &&
                 (isActive
-                  ? "bg-navy/10 text-navy"
-                  : "text-navy-muted hover:bg-navy/5 hover:text-navy"),
+                  ? "bg-navy/10 text-foreground"
+                  : "text-foreground/70 hover:bg-navy/5 hover:text-foreground"),
               mobile && "block py-3 text-base"
             )}
           >
@@ -82,7 +82,7 @@ export function Header() {
           <button
             type="button"
             onClick={() => setMenuOpen((o) => !o)}
-            className="flex min-h-[44px] min-w-[44px] items-center justify-center rounded-lg text-navy hover:bg-navy/5 lg:hidden"
+            className="flex min-h-[44px] min-w-[44px] items-center justify-center rounded-lg text-foreground hover:bg-navy/5 lg:hidden"
             aria-label={menuOpen ? "Menüyü kapat" : "Menüyü aç"}
             aria-expanded={menuOpen}
           >

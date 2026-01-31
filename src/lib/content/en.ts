@@ -94,4 +94,23 @@ export const en = {
     title: "Coming Soon",
     text: "Content for this page will be available soon.",
   },
+  contactPage: {
+    title: "Contact",
+    subtitle: "Fill in the form and send, or reach us through the channels below.",
+    introTitle: "Get in touch with us",
+    introText:
+      "Reach out for education, therapy and counselling services, Erasmus+ projects or collaborations.",
+    formName: "Your name",
+    formEmail: "Your email",
+    formMessage: "Your message",
+    formSubjectPrefix: "Contact form",
+    submitLabel: "Send",
+    emailLabel: "Email",
+    locationLabel: "Location",
+    locationValue: "Athens, Greece",
+    otherContactsLabel: "Other contact channels",
+    instagramLabel: "Instagram",
+    whatsappLabel: "WhatsApp",
+    mailtoCta: "Send email",
+  },
 } as const;

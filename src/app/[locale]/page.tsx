@@ -79,11 +79,18 @@ export default function HomePage({
         </div>
       </section>
 
-      {/* Intro */}
-      <Section title={t.intro.title} subtitle={t.intro.text} />
+      {/* Intro - Bütüncül Destek / Holistic support */}
+      <Section
+        title={t.intro.title}
+        subtitle={t.intro.text}
+        className="bg-holistic/5 [&_.section-title]:text-holistic"
+      />
 
-      {/* Services */}
-      <Section title={t.services.title} className="bg-navy/5">
+      {/* Services - verilen hizmetler */}
+      <Section
+        title={t.services.title}
+        className="bg-services/5 [&_.section-title]:text-services"
+      >
         <div className="grid gap-6 px-5 sm:px-0 sm:grid-cols-2 lg:grid-cols-4">
           {SERVICES.map(({ key, image }, i) => (
             <Card
@@ -91,7 +98,7 @@ export default function HomePage({
               title={t.services[key]}
               href={`/${params.locale}/services`}
               image={image}
-              className="card-services-hover"
+              className="card-services-hover border-l-4 border-services"
               style={{ animationDelay: `${i * 1.5}s` }}
             />
           ))}

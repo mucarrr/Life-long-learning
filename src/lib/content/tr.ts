@@ -95,4 +95,23 @@ export const tr = {
     title: "Yakında",
     text: "Bu sayfanın içeriği yakında yüklenecek.",
   },
+  contactPage: {
+    title: "İletişim",
+    subtitle: "Formu doldurup gönderin veya aşağıdaki kanallardan bize ulaşın.",
+    introTitle: "Bizimle iletişime geçin",
+    introText:
+      "Eğitim, terapi ve danışmanlık hizmetleri, Erasmus+ projeleri veya iş birlikleri için bize yazın.",
+    formName: "Adınız",
+    formEmail: "E-posta adresiniz",
+    formMessage: "Mesajınız",
+    formSubjectPrefix: "İletişim formu",
+    submitLabel: "Gönder",
+    emailLabel: "E-posta",
+    locationLabel: "Konum",
+    locationValue: "Athens, Greece",
+    otherContactsLabel: "Diğer iletişim kanalları",
+    instagramLabel: "Instagram",
+    whatsappLabel: "WhatsApp",
+    mailtoCta: "E-posta gönder",
+  },
 } as const;

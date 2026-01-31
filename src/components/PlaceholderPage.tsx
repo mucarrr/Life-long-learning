@@ -8,7 +8,7 @@ export function PlaceholderPage() {
 
   return (
     <Section title={t.placeholder.title} className="min-h-[50vh] flex items-center">
-      <p className="text-navy-muted">{t.placeholder.text}</p>
+      <p className="text-foreground/80">{t.placeholder.text}</p>
     </Section>
   );
 }
