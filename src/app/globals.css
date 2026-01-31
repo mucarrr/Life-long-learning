@@ -220,7 +220,7 @@ body {
 }
 
 .testimonials-track {
-  animation: testimonials-scroll 40s linear infinite;
+  animation: testimonials-scroll 90s linear infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {

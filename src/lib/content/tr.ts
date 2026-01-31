@@ -58,34 +58,60 @@ export const tr = {
     title: "Sizden Gelenler",
     items: [
       {
-        quote: "Profesyonel ve samimi destek; çocuğumuzda belirgin ilerleme gördük.",
-        name: "Aile",
-        role: "Ebeveyn",
+        emoji: "⭐",
+        quote:
+          "Kısa sürede gözle görülür bir gelişme yaşadık. Çok kısa bir sürede çocuğumun konuşmasında belirgin bir ilerleme oldu. Terapistimiz hem çocuğun ihtiyacını çok iyi analiz etti hem de süreci aile olarak bizimle birlikte değerlendirdi. Daha önce fark etmediğimiz pek çok noktayı görmemizi sağladı.",
+        name: "Ebeveyn",
+        role: "Konuşma Terapisi",
       },
       {
-        quote: "Erasmus+ projeleri ve seminerler çok verimli geçti. Tavsiye ederim.",
-        name: "Katılımcı",
-        role: "Eğitimci",
-      },
-      {
-        quote: "Bütüncül yaklaşım ve iletişim odaklı çalışma çok değerli.",
-        name: "Kurum",
-        role: "İş ortağı",
-      },
-      {
-        quote: "Ebeveyn eğitim programları aile içi iletişimimizi güçlendirdi.",
+        emoji: "🌱",
+        quote:
+          "Oyun oynadığımı sanıyordum, ama gerçek bağın ne olduğunu öğrendim. Çocuğumla ilgilendiğimi düşünüyordum ancak terapiler sırasında bazı eksiklerimi fark ettim. Oyun terapisi sayesinde çocuğumla kurduğumuz bağ güçlendi, iletişimimiz çok daha sağlıklı hâle geldi.",
         name: "Anne",
-        role: "Ebeveyn",
+        role: "Oyun Terapisi Süreci",
       },
       {
-        quote: "Konuşma terapisi desteği sayesinde çocuğumuz çok ilerledi.",
-        name: "Baba",
-        role: "Ebeveyn",
+        emoji: "🧠",
+        quote:
+          "Yaklaşımı çok huzur vericiydi. Terapistin sabırlı, uyumlu ve açıklayıcı yaklaşımı hem çocuğum hem de bizim için çok güven vericiydi. Çocuğum seanslara severek katıldı, online olmasına rağmen sürece kolayca uyum sağladı.",
+        name: "Ebeveyn",
+        role: "Online Terapi",
       },
       {
-        quote: "Avrupa projelerinde iş birliği yapmak deneyimimizi zenginleştirdi.",
-        name: "Okul",
-        role: "Kurum ortağı",
+        emoji: "🗣️",
+        quote:
+          "Daha önce ilerleme olmayan noktada ciddi gelişme oldu. Yurt dışında uzun süre farklı terapiler almış olmamıza rağmen belirgin bir ilerleme yoktu. Bu süreçte çocuğum eksik seslerini tamamladı ve konuşması gözle görülür şekilde gelişti.",
+        name: "Ebeveyn",
+        role: "Konuşma Terapisi",
+      },
+      {
+        emoji: "🤝",
+        quote:
+          "Sadece çocukla değil, aileyle de güçlü bir ilişki kuruldu. Terapistimiz çocukla olduğu kadar bizimle de sürekli iletişim hâlindeydi. Süreç boyunca değerlendirme yapılması ve yönlendirmelerle ilerlenmesi bizim için çok kıymetliydi.",
+        name: "Ebeveyn",
+        role: "",
+      },
+      {
+        emoji: "🌍",
+        quote:
+          "Çocuğum kendini daha iyi ifade etmeye başladı. Çok dilli bir ortamda büyüyen çocuğum yaşıtlarının gerisindeydi. Terapilerden sonra kendini daha rahat ve anlaşılır şekilde ifade etmeye başladı.",
+        name: "Anne",
+        role: "Yurtdışında Yaşayan Aile",
+      },
+      {
+        emoji: "💞",
+        quote:
+          "Çocuğun ihtiyacına göre şekillenen bir süreçti. Rutin uygulamaların ötesinde, çocuğun ihtiyacına göre yönlendirilen, aileyi yormadan ama verimli ilerleyen bir terapi süreci yaşadık.",
+        name: "Ebeveyn",
+        role: "",
+      },
+      {
+        emoji: "🌸",
+        quote:
+          "Gönül rahatlığıyla tavsiye ederim. İşini çok iyi bilen, ne yaptığını bilen bir terapistle çalışmak bize güven verdi. Çevremdeki ailelere de gönül rahatlığıyla tavsiye ediyorum.",
+        name: "Ebeveyn",
+        role: "",
       },
     ],
   },

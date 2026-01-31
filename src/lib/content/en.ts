@@ -57,34 +57,60 @@ export const en = {
     title: "Testimonials",
     items: [
       {
-        quote: "Professional and warm support; we saw clear progress in our child.",
-        name: "Family",
-        role: "Parent",
+        emoji: "⭐",
+        quote:
+          "We saw visible progress in a short time. In a very short period, we observed significant improvement in our child's speech. The therapist carefully analyzed our child's needs and guided us as a family throughout the process.",
+        name: "Parent",
+        role: "Speech Therapy",
       },
       {
-        quote: "Erasmus+ projects and seminars were very productive. I recommend.",
-        name: "Participant",
-        role: "Educator",
-      },
-      {
-        quote: "Holistic approach and communication-focused work are invaluable.",
-        name: "Organization",
-        role: "Partner",
-      },
-      {
-        quote: "Parent education programmes strengthened our family communication.",
+        emoji: "🌱",
+        quote:
+          "I learned what real connection through play truly means. I thought I was playing effectively with my child, but during therapy I realized certain gaps. Through play-based therapy, our bond became much stronger and our communication improved greatly.",
         name: "Mother",
-        role: "Parent",
+        role: "Play Therapy Process",
       },
       {
-        quote: "Speech therapy support helped our child make great progress.",
-        name: "Father",
-        role: "Parent",
+        emoji: "🧠",
+        quote:
+          "Her approach was calming and reassuring. The therapist's patient, supportive, and clear communication made both our child and us feel safe. Even though sessions were online, our child participated willingly and comfortably.",
+        name: "Parent",
+        role: "Online Therapy",
       },
       {
-        quote: "Collaborating on European projects enriched our experience.",
-        name: "School",
-        role: "Partner organisation",
+        emoji: "🗣️",
+        quote:
+          "Progress where we had seen none before. Despite previous therapies abroad, we hadn't seen real improvement. During this process, our child completed missing sounds and made clear progress in speech.",
+        name: "Parent",
+        role: "Speech Therapy",
+      },
+      {
+        emoji: "🤝",
+        quote:
+          "Strong collaboration with both child and family. The therapist maintained close communication not only with our child but also with us as parents. Continuous feedback and guidance were extremely valuable for us.",
+        name: "Parent",
+        role: "",
+      },
+      {
+        emoji: "🌍",
+        quote:
+          "My child can now express herself more clearly. Growing up in a multilingual environment, my child was behind peers. After therapy, she began expressing herself more confidently and clearly.",
+        name: "Mother",
+        role: "Expat Family",
+      },
+      {
+        emoji: "💞",
+        quote:
+          "A process tailored to the child's needs. Beyond routine sessions, therapy was shaped according to our child's individual needs. It was productive, supportive, and never overwhelming for our family.",
+        name: "Parent",
+        role: "",
+      },
+      {
+        emoji: "🌸",
+        quote:
+          "I would confidently recommend this therapy. Working with a therapist who truly knows her field gave us great confidence. I recommend this process wholeheartedly to other families.",
+        name: "Parent",
+        role: "",
       },
     ],
   },

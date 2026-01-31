@@ -26,9 +26,13 @@ export function TestimonialsSection() {
               )}
               style={{ animationDelay: `${(i % items.length) * 0.15}s` }}
             >
-              <p className="text-foreground/80 italic">&ldquo;{item.quote}&rdquo;</p>
+              <p className="text-foreground/80 italic">
+                {item.emoji && <span className="mr-1.5">{item.emoji}</span>}
+                &ldquo;{item.quote}&rdquo;
+              </p>
               <footer className="mt-3 text-sm font-medium text-foreground">
-                — {item.name}, {item.role}
+                — {item.name}
+                {item.role ? ` — ${item.role}` : ""}
               </footer>
             </blockquote>
           ))}
