@@ -57,7 +57,7 @@ export default function SpeechServicePage({ params }: { params: { locale: Locale
         {/* Terapi / eğitim ekran görselleri – tam genişlik */}
         <div className="my-16 sm:mb-12" aria-label="Online terapi görselleri">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
-          {THERAPY_IMAGES.map((img, i) => (
+          {THERAPY_IMAGES.map((img) => (
             <figure
               key={img.src}
               className="group relative overflow-hidden rounded-2xl bg-[var(--border)] shadow-sm transition-all duration-300 hover:shadow-md hover:ring-2 hover:ring-amber-500/30"

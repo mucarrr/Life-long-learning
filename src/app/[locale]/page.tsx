@@ -33,7 +33,7 @@ export default function HomePage({
       <section className="relative overflow-hidden bg-navy text-white">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="https://picsum.photos/seed/hero/1920/1080"
+            src="/images/hero.jpeg"
             alt=""
             fill
             className="object-cover"

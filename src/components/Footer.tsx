@@ -50,7 +50,7 @@ export function Footer() {
                 className="relative block h-9 w-[110px] shrink-0 overflow-hidden rounded-sm bg-[var(--card-bg)] sm:h-10 sm:w-[130px]"
               >
                 <Image
-                  src="/images/LLG.png"
+                  src="/images/LLG.backup.png"
                   alt={t.hero.title}
                   fill
                   className="object-contain object-left"

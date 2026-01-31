@@ -10,7 +10,6 @@ export const en = {
     services: "Our Services",
     erasmus: "Erasmus+ Projects",
     resources: "Resources",
-    publications: "Publications",
     collaborations: "Collaborations",
     contact: "Contact",
     featured: "Featured",
@@ -23,10 +22,6 @@ export const en = {
       educational: "Educational & Pedagogical Support Programs",
       parental: "Parental Training Programs",
       seminars: "Seminars",
-    },
-    publicationsSub: {
-      articles: "Articles",
-      projectOutputs: "Project Outputs",
     },
   },
   hero: {
@@ -52,6 +47,23 @@ export const en = {
     title: "Erasmus+ Projects",
     cta: "Discover Projects",
     badge: "Featured",
+  },
+  resources: {
+    intro: "Presentations and articles from our team. View or download below.",
+    presentationsTitle: "Presentations",
+    articlesTitle: "Articles",
+    viewLink: "View",
+    downloadLabel: "Download",
+    presentationPreview: "Presentation preview",
+    presentations: [
+      { title: "Advocacy for Counselors", url: "/documents/Advocacy_for_Councelors.pptx", description: "", previewImage: "" },
+      { title: "School Success Planning for Immigrant Students", url: "/documents/School_Success_Planing_for_Immigrant_Students.pptx", description: "", previewImage: "" },
+      { title: "Special Population Counselling", url: "/documents/Spec.Pop.Counselling.pptx", description: "", previewImage: "" },
+      { title: "Speech Therapy for Children with Special Needs", url: "/documents/SPEECH_THERAPY_FOR_CHILDREN_WITH_SPECIAL_NEEDS.pdf", description: "", previewImage: "" },
+    ],
+    articles: [
+      { title: "Gifted & Talented Students: Counselling", url: "/documents/GIFTED_TALENTED_STUDENTS_COUNSELLING.docx", description: "", previewImage: "" },
+    ],
   },
   testimonials: {
     title: "Testimonials",

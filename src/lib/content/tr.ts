@@ -10,7 +10,6 @@ export const tr = {
     services: "Hizmetlerimiz",
     erasmus: "Erasmus+ Projeleri",
     resources: "Kaynaklar",
-    publications: "Yayınlar",
     collaborations: "İş Birlikleri",
     contact: "İletişim",
     featured: "Öne çıkan",
@@ -23,10 +22,6 @@ export const tr = {
       educational: "Eğitim ve Pedagojik Destek Programları",
       parental: "Ebeveyn Eğitim Programları",
       seminars: "Seminerler",
-    },
-    publicationsSub: {
-      articles: "Makaleler",
-      projectOutputs: "Proje Çıktıları",
     },
   },
   hero: {
@@ -53,6 +48,23 @@ export const tr = {
     title: "Erasmus+ Projeleri",
     cta: "Projeleri Keşfet",
     badge: "Öne çıkan",
+  },
+  resources: {
+    intro: "Ekibimizden sunumlar ve makaleler. Aşağıdan görüntüleyebilir veya indirebilirsiniz.",
+    presentationsTitle: "Sunumlar",
+    articlesTitle: "Makaleler",
+    viewLink: "Görüntüle",
+    downloadLabel: "İndir",
+    presentationPreview: "Sunum önizleme",
+    presentations: [
+      { title: "Danışmanlar İçin Savunuculuk", url: "/documents/Advocacy_for_Councelors.pptx", description: "", previewImage: "" },
+      { title: "Göçmen Öğrenciler İçin Okul Başarısı Planlaması", url: "/documents/School_Success_Planing_for_Immigrant_Students.pptx", description: "", previewImage: "" },
+      { title: "Özel Popülasyonda Danışmanlık", url: "/documents/Spec.Pop.Counselling.pptx", description: "", previewImage: "" },
+      { title: "Özel Gereksinimli Çocuklarda Konuşma Terapisi", url: "/documents/SPEECH_THERAPY_FOR_CHILDREN_WITH_SPECIAL_NEEDS.pdf", description: "", previewImage: "" },
+    ],
+    articles: [
+      { title: "Üstün Yetenekli Öğrenciler: Danışmanlık", url: "/documents/GIFTED_TALENTED_STUDENTS_COUNSELLING.docx", description: "", previewImage: "" },
+    ],
   },
   testimonials: {
     title: "Sizden Gelenler",

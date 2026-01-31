@@ -14,7 +14,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
 
   function switchTo(newLocale: Locale) {
     document.cookie = `${LOCALE_COOKIE}=${newLocale};path=/;max-age=${60 * 60 * 24 * 365}`;
-    const segments = pathname.split("/").filter(Boolean);
+    const segments = (pathname ?? "").split("/").filter(Boolean);
     segments[0] = newLocale;
     router.push("/" + segments.join("/"));
   }

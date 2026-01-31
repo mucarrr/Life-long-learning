@@ -17,7 +17,6 @@ function getSubLabel(
 ): string {
   if (parentKey === "about") return t.nav.aboutSub[childKey as keyof typeof t.nav.aboutSub];
   if (parentKey === "services") return t.nav.servicesSub[childKey as keyof typeof t.nav.servicesSub];
-  if (parentKey === "publications") return t.nav.publicationsSub[childKey as keyof typeof t.nav.publicationsSub];
   return "";
 }
 
@@ -211,7 +210,7 @@ export function Header() {
           style={{ width: "clamp(120px, 20vw, 200px)" }}
         >
           <Image
-            src="/images/LLG.png"
+            src="/images/LLG.backup.png"
             alt={t.hero.title}
             fill
             className="object-cover object-center mix-blend-multiply"
@@ -223,7 +222,7 @@ export function Header() {
         <nav className="hero-animate hero-animate-delay-2 hidden items-center gap-1 lg:flex">
           <NavLinks
             base={base}
-            pathname={pathname}
+            pathname={pathname ?? ""}
             t={t}
             openDropdown={openDropdown}
             setOpenDropdown={setOpenDropdown}
@@ -259,7 +258,7 @@ export function Header() {
           <nav className="flex flex-col gap-1">
             <NavLinks
               base={base}
-              pathname={pathname}
+              pathname={pathname ?? ""}
               t={t}
               mobile
               openDropdown={openDropdown}
