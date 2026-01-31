@@ -44,7 +44,7 @@ export default function SpeechServicePage({ params }: { params: { locale: Locale
           </p>
         </div>
         {/* Sağ: raptiye notu */}
-        <div className="pinned-note lg:sticky lg:top-6" role="note">
+        <div className="pinned-note  lg:top-6" role="note">
           <div className="space-y-4 text-foreground/90">
             {s.onlinePoints.map((point, i) => (
               <p key={i} className="text-sm leading-relaxed sm:text-base">

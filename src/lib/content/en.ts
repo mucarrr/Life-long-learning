@@ -262,6 +262,7 @@ export const en = {
     },
     parental: {
       title: "Parental Training Programs",
+      seeDetails: "See details",
       programList: [
         "Holistic Parenting Program (Structured & Guided Parent Training)",
         "Family School – Free on YouTube (Open-access parental education)",

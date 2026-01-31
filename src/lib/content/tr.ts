@@ -263,6 +263,7 @@ export const tr = {
     },
     parental: {
       title: "Ebeveyn Destek ve Eğitim Programları",
+      seeDetails: "Ayrıntılar",
       programList: [
         "Bütüncül Aile Eğitimi (Yapılandırılmış Ebeveyn Eğitim Programı)",
         "Aile Okulu – YouTube Üzerinden Ücretsiz (Herkese Açık Ebeveyn Eğitimleri)",
