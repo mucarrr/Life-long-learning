@@ -57,13 +57,13 @@ export const tr = {
     downloadLabel: "İndir",
     presentationPreview: "Sunum önizleme",
     presentations: [
-      { title: "Danışmanlar İçin Savunuculuk", url: "/documents/Advocacy_for_Councelors.pptx", description: "", previewImage: "" },
-      { title: "Göçmen Öğrenciler İçin Okul Başarısı Planlaması", url: "/documents/School_Success_Planing_for_Immigrant_Students.pptx", description: "", previewImage: "" },
-      { title: "Özel Popülasyonda Danışmanlık", url: "/documents/Spec.Pop.Counselling.pptx", description: "", previewImage: "" },
-      { title: "Özel Gereksinimli Çocuklarda Konuşma Terapisi", url: "/documents/SPEECH_THERAPY_FOR_CHILDREN_WITH_SPECIAL_NEEDS.pdf", description: "", previewImage: "" },
+      { title: "Danışmanlar İçin Savunuculuk", url: "/documents/Advocacy_for_Councelors.pptx", description: "", previewImage: "/resources/advocacy.png" },
+      { title: "Göçmen Öğrenciler İçin Okul Başarısı Planlaması", url: "/documents/School_Success_Planing_for_Immigrant_Students.pptx", description: "", previewImage: "/resources/planning.png" },
+      { title: "Özel Popülasyonda Danışmanlık", url: "/documents/Spec.Pop.Counselling.pptx", description: "", previewImage: "/resources/counselling.png" },
+      { title: "Özel Gereksinimli Çocuklarda Konuşma Terapisi", url: "/documents/SPEECH_THERAPY_FOR_CHILDREN_WITH_SPECIAL_NEEDS.pdf", description: "", previewImage: "/resources/speech.png" },
     ],
     articles: [
-      { title: "Üstün Yetenekli Öğrenciler: Danışmanlık", url: "/documents/GIFTED_TALENTED_STUDENTS_COUNSELLING.docx", description: "", previewImage: "" },
+      { title: "Üstün Yetenekli Öğrenciler: Danışmanlık", url: "/documents/GIFTED_TALENTED_STUDENTS_COUNSELLING.docx", description: "", previewImage: "/resources/gifted.png" },
     ],
   },
   testimonials: {

@@ -30,8 +30,8 @@ export default function HomePage({
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-navy text-white">
-        <div className="absolute inset-0 opacity-20">
+      <section className="relative min-h-[90vh] overflow-hidden bg-navy text-white">
+        <div className="absolute inset-0 opacity-40">
           <Image
             src="/images/hero.jpeg"
             alt=""
@@ -41,7 +41,7 @@ export default function HomePage({
             sizes="100vw"
           />
         </div>
-        <div className="container-narrow relative z-10 py-10 sm:py-16 lg:py-20">
+        <div className="container-narrow relative z-10 flex min-h-[55vh] flex-col justify-center py-14 sm:py-20 lg:py-24 mt-52">
           <h1 className="hero-animate hero-animate-delay-1 mb-5 text-center text-3xl font-bold sm:mb-6 sm:text-left sm:text-4xl md:text-5xl">
             {t.hero.title}
           </h1>

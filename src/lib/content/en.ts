@@ -56,13 +56,13 @@ export const en = {
     downloadLabel: "Download",
     presentationPreview: "Presentation preview",
     presentations: [
-      { title: "Advocacy for Counselors", url: "/documents/Advocacy_for_Councelors.pptx", description: "", previewImage: "" },
-      { title: "School Success Planning for Immigrant Students", url: "/documents/School_Success_Planing_for_Immigrant_Students.pptx", description: "", previewImage: "" },
-      { title: "Special Population Counselling", url: "/documents/Spec.Pop.Counselling.pptx", description: "", previewImage: "" },
-      { title: "Speech Therapy for Children with Special Needs", url: "/documents/SPEECH_THERAPY_FOR_CHILDREN_WITH_SPECIAL_NEEDS.pdf", description: "", previewImage: "" },
+      { title: "Advocacy for Counselors", url: "/documents/Advocacy_for_Councelors.pptx", description: "", previewImage: "/resources/advocacy.png" },
+      { title: "School Success Planning for Immigrant Students", url: "/documents/School_Success_Planing_for_Immigrant_Students.pptx", description: "", previewImage: "/resources/planning.png" },
+      { title: "Special Population Counselling", url: "/documents/Spec.Pop.Counselling.pptx", description: "", previewImage: "/resources/counselling.png" },
+      { title: "Speech Therapy for Children with Special Needs", url: "/documents/SPEECH_THERAPY_FOR_CHILDREN_WITH_SPECIAL_NEEDS.pdf", description: "", previewImage: "/resources/speech.png" },
     ],
     articles: [
-      { title: "Gifted & Talented Students: Counselling", url: "/documents/GIFTED_TALENTED_STUDENTS_COUNSELLING.docx", description: "", previewImage: "" },
+      { title: "Gifted & Talented Students: Counselling", url: "/documents/GIFTED_TALENTED_STUDENTS_COUNSELLING.docx", description: "", previewImage: "/resources/gifted.png" },
     ],
   },
   testimonials: {
