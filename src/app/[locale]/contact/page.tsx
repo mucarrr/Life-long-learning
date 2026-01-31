@@ -13,7 +13,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
   const c = t.contactPage;
 
   return (
-    <Section title={c.title} className="bg-navy/5">
+    <Section>
       <div className="grid gap-8 lg:grid-cols-[minmax(0,340px)_1fr] lg:items-start">
         {/* Sol: başlık + açıklama + mail + location + other contacts ikonları */}
         <div className="space-y-6">

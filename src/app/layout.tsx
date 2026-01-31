@@ -17,7 +17,11 @@ export const metadata: Metadata = {
   title: "Lifelong Guidance GR",
   description:
     "Lifelong guidance for resilient minds and confident voices. Holistic support for children, adolescents, and families.",
-};
+    icons: {
+      icon: "/images/favico.png",
+      apple: "/images/favico.png",
+    },
+  };
 
 export const viewport: Viewport = {
   width: "device-width",

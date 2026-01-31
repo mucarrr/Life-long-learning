@@ -189,4 +189,154 @@ export const en = {
     whatsappLabel: "WhatsApp",
     mailtoCta: "Send email",
   },
+  servicesPage: {
+    ctaContact: "Contact us to learn more or to schedule an initial consultation.",
+    speech: {
+      title: "Speech & Language Therapy",
+      intro:
+        "We provide comprehensive Speech and Language Therapy services for a wide range of speech, language, and communication needs, tailored to each individual's age and developmental profile.",
+      expertiseTitle: "Our areas of expertise include:",
+      expertiseItems: [
+        "Delayed Speech and Language Development",
+        "Stuttering (Fluency Disorders)",
+        "Articulation and Speech Sound Disorders",
+        "Communication Disorders, including Selective Mutism",
+        "Educational Audiology for individuals with hearing impairments",
+      ],
+      therapyNote:
+        "Therapy programs are designed to be developmentally appropriate and individualized, ensuring effective support for each client's unique needs.",
+      onlineTitle: "Online Therapy Services",
+      onlineIntro:
+        "Since 2016, I have been successfully delivering online speech and language therapy to hundreds of children and adolescents worldwide.",
+      onlinePoints: [
+        "Online therapy services are available for individuals from the age of 4 and above, offering flexible, accessible, and evidence-based support.",
+        "No matter where you are in the world, you can easily access professional speech and language therapy from the comfort of your own home.",
+      ],
+      cta: "Contact us to learn more or to schedule an initial consultation.",
+    },
+    educational: {
+      title: "Educational & Pedagogical Support Programs",
+      intro:
+        "Our Educational & Pedagogical Support Programs are designed to support children, adolescents, and young adults through key developmental, emotional, and academic stages of life. All programs are delivered online, offering accessible and individualized support for both families and young people.",
+      age4_11: {
+        title: "Ages 4–11 | Emotional Regulation & Communication Support",
+        intro:
+          "For children aged 4 to 11, we provide online counselling sessions that support both children and their families in addressing:",
+        items: [
+          "Emotional regulation and expression",
+          "Communication difficulties",
+          "Peer bullying, a growing concern in early school years",
+          "Screen dependency and healthy digital habits",
+        ],
+        focus:
+          "Sessions focus on helping children develop emotional awareness and coping skills, while guiding parents in understanding and supporting their child's emotional and social needs.",
+      },
+      age11_18: {
+        title: "Ages 11–18 | Adolescence, Academic Success & Career Awareness",
+        intro:
+          "For adolescents aged 11 to 18, we offer structured psychological support and academic coaching, focusing on:",
+        items: [
+          "Self-awareness and emotional regulation during adolescence",
+          "Academic performance and motivation",
+          "Goal setting and stress management",
+          "Career exploration and decision-making, supported by psychological assessments",
+        ],
+        focus:
+          "Our work with adolescents is grounded in CBT-based approaches and academic coaching techniques, helping young people build resilience, confidence, and clear future direction.",
+      },
+      age18_25: {
+        title: "Ages 18–25 | Academic Path, Stress Management & Resilience",
+        intro:
+          "For young adults aged 18 to 25, we provide online psychological support focused on:",
+        items: [
+          "Academic and career planning",
+          "Stress and anxiety management",
+          "Strengthening resilience during transitions to higher education or professional life",
+        ],
+        focus:
+          "These sessions support young adults in navigating academic demands, personal expectations, and life transitions with confidence and emotional balance.",
+      },
+      onlineNote:
+        "All programs are delivered online, allowing families and young people to access professional educational and psychological support from anywhere in the world, in a flexible and comfortable way.",
+      cta: "Contact us to learn more or to book an initial consultation.",
+    },
+    parental: {
+      title: "Parental Training Programs",
+      programList: [
+        "Holistic Parenting Program (Structured & Guided Parent Training)",
+        "Family School – Free on YouTube (Open-access parental education)",
+        "Parent–Child Healing Play Therapy Group (Filial Therapy–Based) (10-session structured parent–child group program)",
+      ],
+      holistic: {
+        title: "Holistic Parenting Program (Structured Parenting Program)",
+        intro:
+          "The Holistic Parenting Program is a structured parent training program that addresses the parent–child relationship through its emotional, communication, and developmental dimensions. The program aims to help parents better understand their child's developmental stages, establish healthy boundaries, and build communication based on connection rather than conflict.",
+        keyAreasTitle: "Key focus areas of the program include:",
+        keyAreas: [
+          "Emotion-focused parenting",
+          "Values and character education",
+          "Healthy boundary setting and discipline",
+          "Understanding typical and atypical behaviors",
+          "Empathic listening and secure attachment",
+        ],
+        delivery:
+          "This program is delivered online and aims to equip parents with both theoretical knowledge and practical, applicable skills.",
+        cta: "Contact us to learn more or to schedule an initial consultation.",
+      },
+      familySchool: {
+        title: "Family School – Free YouTube Program",
+        intro:
+          "Family School is a free, open-access online educational series designed to strengthen the relationship between parents and their children. Delivered via YouTube, this program addresses common parenting topics encountered in everyday life and offers families practical and actionable guidance.",
+        keyTopicsTitle: "Key topics covered in Family School include:",
+        keyTopics: [
+          "Family communication and empathy",
+          "Anger management",
+          "Healthy boundary setting",
+          "Building connection with children and being a role model",
+          "Practical solutions to everyday parenting challenges",
+        ],
+        youtubeNote:
+          "You can access the Family School program for free via our YouTube channel.",
+      },
+      filial: {
+        title: "Parent–Child Healing Play Therapy Group (Filial Therapy–Based Group Program)",
+        intro:
+          "The Parent–Child Healing Play Therapy Group is a Filial Therapy–based group program in which parents and children participate together. This program aims to strengthen the parent–child relationship through therapeutic play, while providing children with a safe, supportive, and healing space to express themselves. The program consists of a total of 10 sessions and supports parents in:",
+        parentsSupport: [
+          "Building connection with their child through therapeutic play",
+          "Better understanding their child's emotional needs",
+          "Developing empathic approaches and healthy boundary-setting skills",
+          "Learning healing play techniques that can be applied at home",
+        ],
+        childrenOpportunityIntro: "During this process, children have the opportunity to:",
+        childrenOpportunity: [
+          "Express emotions through play",
+          "Develop self-regulation and problem-solving skills",
+          "Strengthen secure attachment with their parents",
+        ],
+        closing:
+          "This group program positions parents as active participants in the therapeutic process, aiming to create lasting and sustainable positive change within family relationships.",
+        cta: "Contact us to learn more or to schedule an initial consultation.",
+      },
+    },
+    seminars: {
+      title: "Seminars",
+      pastEventsNote: "Past Events",
+      highlightsTitle: "Selected Seminar Highlights",
+      highlights: [
+        {
+          title: "Family School Seminars – Online parent education series",
+        },
+        {
+          title: "Parent–Child Communication & Emotional Regulation – Workshops",
+        },
+        {
+          title: "Women's Socio-Economic Empowerment – International webinar",
+        },
+        {
+          title: "Speech & Language Pathology Academic Conferences – Guest speaker",
+        },
+      ],
+    },
+  },
 } as const;

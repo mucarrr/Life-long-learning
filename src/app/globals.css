@@ -47,6 +47,42 @@ body {
   @apply mt-2 text-[var(--navy-muted)];
 }
 
+/* Hakkımızda alt bölüm başlıkları – modern accent bar + tipografi */
+.about-item-title {
+  @apply relative pl-4 text-base font-semibold tracking-tight text-[var(--navy)] sm:text-lg;
+}
+.about-item-title::before {
+  content: "";
+  @apply absolute left-0 top-0.5 bottom-0.5 w-0.5 rounded-full bg-amber-500/80 transition-all duration-200;
+}
+.group:hover .about-item-title::before,
+.group:focus-within .about-item-title::before {
+  @apply w-1 bg-amber-600;
+}
+
+/* Raptiye ile asılmış not – sadece Online Terapi Hizmetleri (Speech) */
+.pinned-note {
+  @apply relative rounded-xl border-l-4 border-yellow bg-yellow/5 px-4 py-5 pt-8 sm:px-6 sm:py-6 sm:pt-10;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.08),
+    0 2px 4px -2px rgba(0, 0, 0, 0.05),
+    0 0 0 1px rgba(161, 98, 7, 0.06);
+  transform: rotate(-2deg);
+}
+.pinned-note::before {
+  /* Raptiye başı */
+  content: "";
+  @apply absolute left-1/2 top-2 h-4 w-4 -translate-x-1/2 rounded-full border-2 border-amber-800/40 bg-amber-600 shadow-md;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.pinned-note::after {
+  /* Raptiye gölgesi / duvara değen nokta */
+  content: "";
+  @apply absolute left-1/2 top-5 h-1 w-1 -translate-x-1/2 rounded-full bg-black/20;
+}
+
 .btn-base {
   @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50;
 }

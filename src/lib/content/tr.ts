@@ -190,4 +190,146 @@ export const tr = {
     whatsappLabel: "WhatsApp",
     mailtoCta: "E-posta gönder",
   },
+  servicesPage: {
+    ctaContact: "Detaylı bilgi almak veya ilk görüşmeyi planlamak için bizimle iletişime geçebilirsiniz.",
+    speech: {
+      title: "Konuşma ve Dil Terapisi",
+      intro:
+        "Yaş ve gelişim özelliklerine uygun olarak yapılandırılan Konuşma ve Dil Terapisi hizmetlerimiz; konuşma, dil ve iletişim alanındaki farklı ihtiyaçlara bireyselleştirilmiş destek sunmayı amaçlamaktadır.",
+      expertiseTitle: "Uzmanlık alanlarımız şunları kapsar:",
+      expertiseItems: [
+        "Gecikmiş Konuşma ve Dil Gelişimi",
+        "Kekemelik (Akıcılık Bozuklukları)",
+        "Artikülasyon ve Konuşma Sesi Bozuklukları",
+        "İletişim Bozuklukları, Selektif Mutizm dâhil",
+        "İşitme yetersizliği olan bireyler için Eğitim Odyolojisi",
+      ],
+      therapyNote:
+        "Terapi programları; her danışanın yaşına, gelişim düzeyine ve bireysel ihtiyaçlarına uygun şekilde planlanarak etkili ve sürdürülebilir destek sağlar.",
+      onlineTitle: "Online Terapi Hizmetleri",
+      onlineIntro:
+        "2016 yılından bu yana, dünyanın farklı ülkelerinden yüzlerce çocuk ve ergen ile online konuşma ve dil terapisi çalışmaları başarıyla yürütülmektedir.",
+      onlinePoints: [
+        "Online terapi hizmetleri 4 yaş ve üzeri bireyler için uygundur; esnek, erişilebilir ve kanıta dayalı bir destek imkânı sunar.",
+        "Dünyanın neresinde olursanız olun, evinizin konforunda profesyonel konuşma ve dil terapisi hizmetine kolayca ulaşabilirsiniz.",
+      ],
+      cta: "Detaylı bilgi almak veya ilk görüşmeyi planlamak için bizimle iletişime geçebilirsiniz.",
+    },
+    educational: {
+      title: "Eğitsel ve Pedagojik Destek Programları",
+      intro:
+        "Eğitsel ve Pedagojik Destek Programları, çocukların, ergenlerin ve genç yetişkinlerin yaşamlarının farklı gelişim dönemlerinde karşılaştıkları duygusal, akademik ve gelişimsel ihtiyaçlarını desteklemek amacıyla hazırlanmıştır. Tüm programlar online olarak yürütülmekte olup, aileler ve gençler için erişilebilir ve bireyselleştirilmiş destek sunmaktadır.",
+      age4_11: {
+        title: "4–11 Yaş | Duygu Düzenleme ve İletişim Becerileri",
+        intro:
+          "4–11 yaş arası çocuklar için; çocuk ve aileyi birlikte kapsayan online danışmanlık seansları yürütülmektedir. Bu yaş grubunda çalışmalar şu alanlara odaklanır:",
+        items: [
+          "Duygu düzenleme ve duyguların sağlıklı şekilde ifade edilmesi",
+          "İletişim becerilerinin desteklenmesi",
+          "Günümüzde sıkça karşılaşılan akran zorbalığı ile baş etme",
+          "Ekran bağımlılığı ve sağlıklı dijital alışkanlıkların geliştirilmesi",
+        ],
+        focus:
+          "Seanslar; çocukların duygusal farkındalık ve baş etme becerilerini güçlendirirken, ebeveynlere de çocuklarını bu süreçte nasıl destekleyebilecekleri konusunda rehberlik sunar.",
+      },
+      age11_18: {
+        title: "11–18 Yaş | Ergenlik Dönemi, Akademik Başarı ve Kariyer Farkındalığı",
+        intro:
+          "11–18 yaş arası ergenler için sunulan programlarda; psikolojik destek ve akademik koçluk çalışmaları bir arada yürütülmektedir. Odaklanılan başlıca alanlar:",
+        items: [
+          "Ergenlik döneminde kendini tanıma ve duygu düzenleme",
+          "Akademik başarıyı destekleme ve motivasyon",
+          "Hedef belirleme ve stres yönetimi",
+          "Psikolojik testler eşliğinde kariyer keşfi ve kariyer belirleme",
+        ],
+        focus:
+          "Bu çalışmalar, BDT temelli yaklaşımlar ve akademik koçluk teknikleri ile yapılandırılarak; gençlerin dayanıklılık, özgüven ve gelecek planlaması becerilerini güçlendirmeyi amaçlar.",
+      },
+      age18_25: {
+        title: "18–25 Yaş | Akademik Kariyer, Stres Yönetimi ve Dayanıklılık",
+        intro:
+          "18–25 yaş arası genç yetişkinler için yürütülen online destek programları şu alanlara odaklanır:",
+        items: [
+          "Akademik ve mesleki kariyer planlaması",
+          "Stres ve kaygı yönetimi",
+          "Dayanıklılık (resilience) becerilerinin geliştirilmesi",
+        ],
+        focus:
+          "Bu seanslar, üniversite yaşamı ve erken yetişkinlik dönemindeki geçiş süreçlerinde genç yetişkinlerin daha dengeli ve güçlü ilerlemelerini destekler.",
+      },
+      onlineNote:
+        "Tüm programlar online olarak yürütülmekte olup, dünyanın neresinde olursanız olun; evinizin konforunda profesyonel eğitsel ve psikolojik destek almanızı sağlar.",
+      cta: "Detaylı bilgi almak veya ilk görüşmeyi planlamak için bizimle iletişime geçebilirsiniz.",
+    },
+    parental: {
+      title: "Ebeveyn Destek ve Eğitim Programları",
+      programList: [
+        "Bütüncül Aile Eğitimi (Yapılandırılmış Ebeveyn Eğitim Programı)",
+        "Aile Okulu – YouTube Üzerinden Ücretsiz (Herkese Açık Ebeveyn Eğitimleri)",
+        "Ebeveyn ve Çocuk İyileştirici Oyun Terapi Grubu (Filial Terapi Temelli) (10 Seanslık Yapılandırılmış Grup Programı)",
+      ],
+      holistic: {
+        title: "Bütüncül Aile Eğitimi (Yapılandırılmış Ebeveyn Eğitim Programı)",
+        intro:
+          "Bütüncül Aile Eğitimi, ailelerin çocuklarıyla kurdukları ilişkiyi; duygusal, iletişimsel ve gelişimsel boyutlarıyla ele alan, yapılandırılmış bir ebeveyn eğitim programıdır. Program; ebeveynlerin çocuklarının gelişim dönemlerini daha iyi anlamalarını, sağlıklı sınırlar koymalarını ve çocuklarıyla çatışmadan, bağ kurarak iletişim geliştirmelerini hedefler.",
+        keyAreasTitle: "Programın odak alanları:",
+        keyAreas: [
+          "Duygu odaklı ebeveynlik",
+          "Değer ve karakter eğitimi",
+          "Sağlıklı sınır koyma ve disiplin",
+          "Normal ve normal olmayan davranışları ayırt edebilme",
+          "Empatik dinleme ve güvenli bağlanma",
+        ],
+        delivery:
+          "Bu program, online olarak yürütülmekte olup, ebeveynlere hem bilgi hem de uygulamaya dönük beceriler kazandırmayı amaçlar.",
+        cta: "Program detayları ve kayıt için bizimle iletişime geçebilirsiniz.",
+      },
+      familySchool: {
+        title: "Aile Okulu – Ücretsiz YouTube Programı",
+        intro:
+          "Aile Okulu, ebeveynlerin çocuklarıyla olan ilişkilerini güçlendirmeyi amaçlayan, ücretsiz ve herkesin erişimine açık bir online eğitim serisidir. YouTube üzerinden yayınlanan bu programda; günlük hayatta sık karşılaşılan ebeveynlik konuları ele alınır ve ailelere pratik, uygulanabilir öneriler sunulur.",
+        keyTopicsTitle: "Aile Okulu'nda ele alınan başlıca konular:",
+        keyTopics: [
+          "Aile içi iletişim ve empati",
+          "Öfke yönetimi",
+          "Sağlıklı sınır koyma",
+          "Çocukla bağ kurma ve rol model olma",
+          "Günlük ebeveynlik sorunlarına pratik çözümler",
+        ],
+        youtubeNote:
+          "Aile Okulu programına YouTube kanalımız üzerinden ücretsiz olarak erişebilirsiniz.",
+      },
+      filial: {
+        title: "Ebeveyn ve Çocuk İyileştirici Oyun Terapi Grubu (Filial Terapi Temelli Grup Programı)",
+        intro:
+          "Ebeveyn ve Çocuk İyileştirici Oyun Terapi Grubu, Filial Terapi yaklaşımı temel alınarak yapılandırılmış, ebeveyn ve çocuğun birlikte katıldığı bir grup terapi programıdır. Bu program, ebeveynlerin çocuklarıyla kurdukları ilişkiyi oyun aracılığıyla güçlendirmelerini, çocukların ise kendilerini güvenli, destekleyici ve iyileştirici bir ortamda ifade edebilmelerini amaçlar. Program, toplam 10 seans olarak planlanmış olup, ebeveynlerin:",
+        parentsSupport: [
+          "Çocuklarıyla terapötik oyun yoluyla bağ kurmalarını",
+          "Çocuklarının duygusal ihtiyaçlarını daha iyi anlamalarını",
+          "Empatik yaklaşım ve sağlıklı sınır koyma becerilerini geliştirmelerini",
+          "Ev ortamında uygulanabilir iyileştirici oyun tekniklerini öğrenmelerini",
+        ],
+        childrenOpportunityIntro: "Çocuklar ise bu süreçte:",
+        childrenOpportunity: [
+          "Duygularını oyun yoluyla ifade etme",
+          "Öz düzenleme ve problem çözme becerileri geliştirme",
+          "Ebeveynleriyle güvenli bağlanma ilişkisini güçlendirme",
+        ],
+        closing:
+          "Bu grup çalışması, ebeveynleri terapötik sürecin aktif bir parçası hâline getirerek, aile içi ilişkilere kalıcı ve sürdürülebilir katkı sağlamayı hedefler.",
+        cta: "Program detayları ve başvuru için bizimle iletişime geçebilirsiniz.",
+      },
+    },
+    seminars: {
+      title: "Seminerler",
+      pastEventsNote: "Geçmiş Etkinlikler",
+      highlightsTitle: "Seçilmiş Seminer Öne Çıkanları",
+      highlights: [
+        { title: "Aile Okulu Seminerleri – Online ebeveyn eğitim serisi" },
+        { title: "Ebeveyn–Çocuk İletişimi ve Duygu Düzenleme – Atölyeler" },
+        { title: "Kadınların Sosyo-Ekonomik Güçlendirilmesi – Uluslararası webinar" },
+        { title: "Konuşma ve Dil Patolojisi Akademik Konferansları – Konuk konuşmacı" },
+      ],
+    },
+  },
 } as const;
